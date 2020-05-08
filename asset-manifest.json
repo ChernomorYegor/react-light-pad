@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-light-pad/static/css/main.2b84594a.chunk.css",
+    "main.js": "/react-light-pad/static/js/main.72643c3e.chunk.js",
+    "main.js.map": "/react-light-pad/static/js/main.72643c3e.chunk.js.map",
+    "runtime-main.js": "/react-light-pad/static/js/runtime-main.26d6ce70.js",
+    "runtime-main.js.map": "/react-light-pad/static/js/runtime-main.26d6ce70.js.map",
+    "static/js/2.c7902168.chunk.js": "/react-light-pad/static/js/2.c7902168.chunk.js",
+    "static/js/2.c7902168.chunk.js.map": "/react-light-pad/static/js/2.c7902168.chunk.js.map",
+    "index.html": "/react-light-pad/index.html",
+    "precache-manifest.679372e365179654a8ad3d5b97763ea6.js": "/react-light-pad/precache-manifest.679372e365179654a8ad3d5b97763ea6.js",
+    "service-worker.js": "/react-light-pad/service-worker.js",
+    "static/css/main.2b84594a.chunk.css.map": "/react-light-pad/static/css/main.2b84594a.chunk.css.map",
+    "static/js/2.c7902168.chunk.js.LICENSE.txt": "/react-light-pad/static/js/2.c7902168.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26d6ce70.js",
+    "static/js/2.c7902168.chunk.js",
+    "static/css/main.2b84594a.chunk.css",
+    "static/js/main.72643c3e.chunk.js"
+  ]
+}
