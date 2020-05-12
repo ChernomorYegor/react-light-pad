@@ -6,9 +6,13 @@ const mapStateToProps = state => {
         bulbs: state.lightPad.bulbs,
     }
 };
+
 const mapDispatchToProps = dispatch => {
     return {
-
+        bulbClick : (bulbIndex) => dispatch({
+            type : 'BULB_CLICK',
+            payload: bulbIndex,
+        })
     }
 };
 

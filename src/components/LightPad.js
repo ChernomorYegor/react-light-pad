@@ -1,18 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Bulb from '../containers/Bulb';
+function LightPad({ bulbs, bulbClick }) {
+    const lightOn = 'http://res.cloudinary.com/dtjoxh5wb/image/upload/v1495532392/on_med_n3p8pd.png';
+    const lightOff = 'http://res.cloudinary.com/dtjoxh5wb/image/upload/v1495532392/off_med_fmma6p.png';
 
-function LightPad({ bulbs }) {
     return (
         <ul>
-            { bulbs.map((bulb, bulbIndex) => <Bulb key={bulbIndex} bulbIndex={bulbIndex} />) }
+            {
+                bulbs.map((bulb, bulbIndex) => bulbs[bulbIndex]
+                ? <li key={bulbIndex}><input type="image" src={lightOn} alt="bulb" onClick={bulbClick.bind(null, bulbIndex)} /></li>
+                : <li key={bulbIndex}><input type="image" src={lightOff} alt="bulb" onClick={bulbClick.bind(null, bulbIndex)} /></li>)
+            }
         </ul>
     );
 }
 
 LightPad.propTypes = {
     bulbs: PropTypes.array.isRequired,
+    bulbClick: PropTypes.func.isRequired,
 };
 
 export default LightPad;
