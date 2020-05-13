@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f810eff20554372d2722c94b1ca45a9",
+    "revision": "c792e2243ac60b22b6d58229154102ca",
     "url": "/react-light-pad/index.html"
   },
   {
-    "revision": "030f485f910877b549d9",
+    "revision": "7b2fbec30c7e8f1f2dcb",
     "url": "/react-light-pad/static/css/main.15af0102.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-light-pad/static/js/2.7b8d4ac7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "030f485f910877b549d9",
-    "url": "/react-light-pad/static/js/main.f221f523.chunk.js"
+    "revision": "7b2fbec30c7e8f1f2dcb",
+    "url": "/react-light-pad/static/js/main.bf7bead8.chunk.js"
   },
   {
     "revision": "9567cb12286cd8dfd528",
