@@ -8,9 +8,8 @@ function LightPad({ bulbs, bulbClick }) {
     return (
         <ul>
             {
-                bulbs.map((bulb, bulbIndex) => bulbs[bulbIndex]
-                ? <li key={bulbIndex}><input type="image" src={lightOn} alt="bulb" onClick={bulbClick.bind(null, bulbIndex)} /></li>
-                : <li key={bulbIndex}><input type="image" src={lightOff} alt="bulb" onClick={bulbClick.bind(null, bulbIndex)} /></li>)
+                bulbs.map((bulb, bulbIndex) =>
+                    <li key={bulbIndex}><input type="image" src={bulbs[bulbIndex] ? lightOn : lightOff} alt="bulb" onClick={bulbClick.bind(null, bulbIndex)} /></li>)
             }
         </ul>
     );
